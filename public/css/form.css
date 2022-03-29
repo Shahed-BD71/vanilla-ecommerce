@@ -28,9 +28,7 @@ body {
   margin: 0 auto 50px;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
+input:not(input[type="checkbox"]),
 textarea {
   display: block;
   width: 300px;
